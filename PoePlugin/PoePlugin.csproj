@@ -37,6 +37,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PluginMain.cs" />
+    <Compile Include="PluginSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ExileCore">
+      <HintPath>..\..\..\Desktop\Path of Exile\PoeHelper\ExileCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>..\..\..\Desktop\Path of Exile\PoeHelper\SharpDX.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
