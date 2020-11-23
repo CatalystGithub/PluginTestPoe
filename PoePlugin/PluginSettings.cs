@@ -10,12 +10,15 @@ namespace PoePlugin
         public ToggleNode TestNode1 { get; set; }
         public ToggleNode TestNode2 { get; set; }
         public ToggleNode TestNode3 { get; set; }
+        public ToggleNode NecatiyeSelamVer { get; set; }
+
 
         public PluginSettings()
         {
             Enable = new ToggleNode(true);
             TestNode1 = new ToggleNode(true);
             TestNode2 = new ToggleNode(false);
+            NecatiyeSelamVer = new ToggleNode(true);
         }
     }
 }
